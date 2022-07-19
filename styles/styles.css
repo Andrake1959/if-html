@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+
+p {
+  color: #1866da;
+}
+
+p:before {
+  content: "1. ";
+  color: darkblue;
+}
+
+p:after {
+  content: " !";
+}
+
+input[type="text"] {
+  color: #f30909;
+}
+
+#title {
+  color: #10c928;
+}
+
+.primary {
+  color: #e00606;
+}
+
+.primary:hover {
+  color: #10c928;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.description .primary ~ p {
+  color: #A1A59D;
+}
+
+.primary.text-center {
+  margin: 16px !important;
+}
