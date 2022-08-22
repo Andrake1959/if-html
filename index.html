@@ -3,28 +3,74 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Моя первая страница</title>
+    <title>TripHouse</title>
     <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="icon" href="./images/favicon/favicon.ico">
   </head>
   <body>
+    <div class="top-section">
+      <div class="home">
+        <img src="./images/top-section-pics/logo.png" alt="Triphouse">
+        <div class="user-panel">
+          <div class="links">
+            <a href="">Stays</a>
+            <a href="">Attractions</a>
+          </div>
+          <div class="options">
+            <img src="./images/top-section-pics/night.png" alt="Night mode">
+            <img src="./images/top-section-pics/account.png" alt="User account">
+          </div>
+        </div>
+      </div>
+      <h1 class="tagline">Discover stays <br>
+      to live, work or just relax</h1>
+      <div>
+        <form class="search">
+          <div class="place-search">
+            <label for="place" class="search-name">Your destination or hotel name</label><br>
+            <div>
+              <input id="place" class="search-string place" value="New York">
+            </div>
+            </div>
+          <div class="date-search">
+            <label for="date" class="search-name">Check-in — Check-out</label><br>
+            <div>
+              <input id="date" class="search-string date" value="Tue 15 Sept — Sat 19 Sept">
+            </div>
+            </div>
+          <div class="person-search">
+          <input class="search-string person" value="2 Adults — 0 Children — 1 Room">
+          </div>
+          <input class="button" type="button" value="Search">
+        </form>
+      </div>
+      <div class="get">
+        <div class="google-play">
+          <img src="./images/top-section-pics/google-play.png" alt="Get it on Google Play">
+        </div>
+        <div class="appstore">
+          <img src="./images/top-section-pics/appstore.png" alt="Download on the Appstore">
+        </div>
+      </div>
+    </div>
     <div class="container">
       <p class="header">What do we offer</p>
-      <img src="./images/highlight.png" alt="" />
+      <img src="images/icons/highlight.png" alt="" />
       <div class="offer">
         <div class="info">
-          <img src="./images/headset.png" alt="Headset" />
+          <img src="images/icons/headset.png" alt="Headset" />
           <p>Support 24/7</p>
         </div>
         <div class="info">
-          <img src="./images/discuss.png" alt="Dialog windows" />
+          <img src="images/icons/discuss.png" alt="Dialog windows" />
           <p>Communicate directly</p>
         </div>
         <div class="info">
-          <img src="./images/devices.png" alt="Devices" />
+          <img src="images/icons/devices.png" alt="Devices" />
           <p>Book online</p>
         </div>
         <div class="info">
-          <img src="./images/thumb-up.png" alt="Thumb up" />
+          <img src="images/icons/thumb-up.png" alt="Thumb up" />
           <p>Real guest reviews</p>
         </div>
       </div>
