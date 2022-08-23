@@ -13,8 +13,8 @@
         <img src="./images/top-section-pics/logo.png" alt="Triphouse">
         <div class="user-panel">
           <div class="links">
-            <a href="">Stays</a>
-            <a href="">Attractions</a>
+            <a class="links" href="">Stays</a>
+            <a class="links" href="">Attractions</a>
           </div>
           <div class="options">
             <img src="./images/top-section-pics/night.png" alt="Night mode">
@@ -22,18 +22,20 @@
           </div>
         </div>
       </div>
-      <h1 class="tagline">Discover stays <br>
+      <h1 class="title">Discover stays <br>
       to live, work or just relax</h1>
       <div>
-        <form class="search">
+        <div class="search-name">
+          <div class="place-label"><label for="place">Your destination or hotel name</label></div>
+          <div class="date-label"><label for="date">Check-in — Check-out</label></div>
+        </div>
+          <form class="search">
           <div class="place-search">
-            <label for="place" class="search-name">Your destination or hotel name</label><br>
             <div>
               <input id="place" class="search-string place" value="New York">
             </div>
-            </div>
+          </div>
           <div class="date-search">
-            <label for="date" class="search-name">Check-in — Check-out</label><br>
             <div>
               <input id="date" class="search-string date" value="Tue 15 Sept — Sat 19 Sept">
             </div>
@@ -41,10 +43,10 @@
           <div class="person-search">
           <input class="search-string person" value="2 Adults — 0 Children — 1 Room">
           </div>
-          <input class="button" type="button" value="Search">
+          <button class="button">Search</button>
         </form>
       </div>
-      <div class="get">
+      <div class="app-links">
         <div class="google-play">
           <img src="./images/top-section-pics/google-play.png" alt="Get it on Google Play">
         </div>
