@@ -117,12 +117,16 @@ body {
 }
 
 .search-string {
-  height: 58px;
-  font-size: 18px;
-  font-weight: 400;
   color: #383838;
   padding: 0 24px 0 24px;
   border-radius: 8px;
+}
+
+input.search-string:focus {
+  outline: none;
+  border: 3px solid #f5bd41;
+  height: 64px;
+  padding-left: 21px;
 }
 
 .search {
@@ -146,15 +150,9 @@ body {
 }
 
 .place {
-  width: 490px;
-}
-
-.place-search {
-  display: flex;
-  flex-direction: column;
   font-size: 18px;
   font-weight: 400;
-  width: 467px;
+  width: 490px;
 }
 
 .place-label {
@@ -162,16 +160,9 @@ body {
   padding-left: 24px;
 }
 
-.date-search {
-  display: flex;
-  flex-direction: column;
+.date {
   font-size: 18px;
   font-weight: 400;
-  position: sticky;
-  width: 259px;
-}
-
-.date {
   width: 282px;
 }
 
@@ -181,10 +172,8 @@ body {
 
 .person {
   width: 337px;
-}
-
-.person-search {
-  width: 314px;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .button {
