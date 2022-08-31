@@ -11,12 +11,15 @@
     <div class="top-section">
       <div class="home">
         <img src="./images/top-section-pics/logo.png" alt="Triphouse">
-        <div class="user-panel">
-          <div class="links">
-            <a class="links" href="">Stays</a>
+        <div class="home__user-panel">
+          <div class="home__links">
+            <div class="links--selected">
+            <div><a class="links" href="">Stays</a></div>
+            <div class="links__highlight"></div>
+            </div>
             <a class="links" href="">Attractions</a>
           </div>
-          <div class="options">
+          <div class="home__options">
             <img src="./images/top-section-pics/night.png" alt="Night mode">
             <img src="./images/top-section-pics/account.png" alt="User account">
           </div>
@@ -24,66 +27,68 @@
       </div>
       <h1 class="title">Discover stays <br>
       to live, work or just relax</h1>
-      <div>
-        <div class="search-name">
-          <div class="place-label"><label for="place">Your destination or hotel name</label></div>
-          <div class="date-label"><label for="date">Check-in — Check-out</label></div>
+      <div class="search">
+        <div class="search__name">
+          <div class="search__place-label"><label for="place">Your destination or hotel name</label></div>
+          <div class="search__date-label"><label for="date">Check-in — Check-out</label></div>
         </div>
-        <form class="search">
-          <div class="place">
-              <input id="place" class="search-string place" value="New York">
+        <form class="search__search-string">
+          <div class="search__place">
+              <input id="place" class="search__search-string--style search__place" value="New York">
           </div>
-          <div class="date">
-              <input id="date" class="search-string date" value="Tue 15 Sept — Sat 19 Sept">
+          <div class="search__date">
+              <input id="date" class="search__search-string--style search__date" value="Tue 15 Sept — Sat 19 Sept">
           </div>
-          <div class="person">
-          <input class="search-string person" value="2 Adults — 0 Children — 1 Room">
+          <div class="search__person">
+          <input class="search__search-string--style search__person" value="2 Adults — 0 Children — 1 Room">
           </div>
-          <button class="button">Search</button>
+          <button class="search__button">Search</button>
         </form>
       </div>
       <div class="app-links">
-        <div class="google-play">
+        <div class="app-links__google-play">
           <img src="./images/top-section-pics/google-play.png" alt="Get it on Google Play">
         </div>
-        <div class="appstore">
+        <div class="app-links__appstore">
           <img src="./images/top-section-pics/appstore.png" alt="Download on the Appstore">
         </div>
       </div>
     </div>
-    <div class="container">
-      <p class="header">What do we offer</p>
-      <img src="images/icons/highlight.png" alt="" />
-      <div class="offer">
-        <div class="info">
+    <div class="advantages">
+      <div class="advantages--top">
+        <p class="advantages__title">What do we offer</p>
+      <div class="highlight"></div>
+      </div>
+        <div class="offers">
+        <div class="offers__info">
           <img src="images/icons/headset.png" alt="Headset" />
           <p>Support 24/7</p>
         </div>
-        <div class="info">
+        <div class="offers__info">
           <img src="images/icons/discuss.png" alt="Dialog windows" />
           <p>Communicate directly</p>
         </div>
-        <div class="info">
+        <div class="offers__info">
           <img src="images/icons/devices.png" alt="Devices" />
           <p>Book online</p>
         </div>
-        <div class="info">
+        <div class="offers__info">
           <img src="images/icons/thumb-up.png" alt="Thumb up" />
           <p>Real guest reviews</p>
         </div>
       </div>
     </div>
     <div class="footer">
-      <div class="main">
-          <div class="about">
-          <p class="head">About</p>
+      <div class="more-info">
+          <div class="more-info__column">
+          <p class="more-info__column--head">About</p>
           <p>How Triphouse works</p>
           <p>Careers</p>
           <p>Privacy</p>
           <p>Terms</p>
         </div>
-        <div class="about">
-          <p class="head">Property types</p>
+        <div class="more-info__column">
+          <p class="more-info__column--head">Property types</p>
           <p>Guest houses</p>
           <p>Hotels</p>
           <p>Apartments</p>
@@ -91,8 +96,8 @@
           <p>Holiday homes</p>
           <p>Hostels</p>
         </div>
-        <div class="about">
-          <p class="head">Support</p>
+        <div class="more-info__column">
+          <p class="more-info__column--head">Support</p>
           <p>Contact Customer Service</p>
           <p>FAQ</p>
         </div>

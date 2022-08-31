@@ -11,68 +11,6 @@ body {
   background-color: #ffffff;
 }
 
-.container {
-  text-align: center;
-}
-
-.header {
-  margin-top: 120px;
-  margin-bottom: 20px;
-  font-size: 40px;
-  font-weight: 500;
-}
-
-.offer {
-  display: flex;
-  height: 180px;
-  margin: 80px 104px 120px 104px;
-  font-size: 24px;
-  font-weight: 400;
-  justify-content: space-evenly;
-}
-
-.info {
-  width: 296px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.main {
-  display: flex;
-  justify-content: space-between;
-}
-
-.about {
-  display: flex;
-  flex-direction: column;
-  row-gap: 24px;
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.head {
-  font-weight: 500;
-  font-size: 20px;
-}
-
-.footer {
-  background-color: #10367c;
-  color: #ffffff;
-
-  padding-left: 104px;
-  padding-top: 120px;
-  padding-right: 272px;
-}
-
-.author {
-  font-weight: 400;
-  font-size: 14px;
-  padding-bottom: 120px;
-  padding-top: 64px;
-}
-
 .top-section {
   background-image: url("../images/background.svg");
   background-repeat: no-repeat;
@@ -85,25 +23,43 @@ body {
 .home {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 24px;
   font-weight: 400;
-  margin-bottom: 196px;
 }
 
-.user-panel {
+.home__user-panel {
   display: flex;
   gap: 48px;
 }
-.links {
+
+.home__links {
   display: flex;
   gap: 24px;
   align-items: center;
+}
+
+.links {
   color: #ffffff;
   outline: none;
   text-decoration: none;
 }
 
-.options {
+.links__highlight {
+  width: 50px;
+  height: 4px;
+  background-color: #f5bd41;
+}
+
+.links--selected {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding-top: 12px;
+}
+
+.home__options {
   display: flex;
   gap: 24px;
   align-items: center;
@@ -114,22 +70,24 @@ body {
   font-weight: 500;
   color: #ffffff;
   margin-bottom: 100px;
+  margin-top: 196px;
 }
 
-.search-string {
+.search__search-string--style {
   color: #383838;
   padding: 0 24px 0 24px;
   border-radius: 8px;
+  height: 58px;
 }
 
-input.search-string:focus {
+input.search__search-string--style:focus {
   outline: none;
   border: 3px solid #f5bd41;
   height: 64px;
   padding-left: 21px;
 }
 
-.search {
+.search__search-string {
   display: flex;
   align-items: center;
   color: #ffffff;
@@ -141,7 +99,7 @@ input.search-string:focus {
   height: 64px;
 }
 
-.search-name {
+.search__name {
   display: flex;
   padding-bottom: 24px;
   color: #ffffff;
@@ -149,34 +107,34 @@ input.search-string:focus {
   font-weight: 400;
 }
 
-.place {
+.search__place {
   font-size: 18px;
   font-weight: 400;
   width: 490px;
 }
 
-.place-label {
+.search__place-label {
   width: 494px;
   padding-left: 24px;
 }
 
-.date {
+.search__date {
   font-size: 18px;
   font-weight: 400;
   width: 282px;
 }
 
-.date-label {
+.search__date-label {
   padding-left: 24px;
 }
 
-.person {
+.search__person {
   width: 337px;
   font-size: 18px;
   font-weight: 400;
 }
 
-.button {
+.search__button {
   height: 64px;
   width: 192px;
   background: #3077c6;
@@ -192,4 +150,77 @@ input.search-string:focus {
   display: flex;
   gap: 17px;
   justify-content: center;
+}
+
+.advantages {
+  text-align: center;
+}
+
+.advantages__title {
+  margin-top: 120px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.highlight {
+  width: 100px;
+  height: 4px;
+  background-color: #f5bd41;
+}
+
+.advantages--top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.offers {
+  display: flex;
+  height: 180px;
+  margin: 80px 104px 120px 104px;
+  font-size: 24px;
+  font-weight: 400;
+  justify-content: space-evenly;
+}
+
+.offers__info {
+  width: 296px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #10367c;
+  color: #ffffff;
+  padding-left: 104px;
+  padding-top: 120px;
+  padding-right: 272px;
+}
+
+.more-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-info__column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.more-info__column--head {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.author {
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 120px;
+  padding-top: 64px;
 }
