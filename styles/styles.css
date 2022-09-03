@@ -28,6 +28,11 @@ body {
   font-weight: 400;
 }
 
+.home__logo {
+  width: 205px;
+  height: 40px;
+}
+
 .home__user-panel {
   display: flex;
   gap: 48px;
@@ -63,6 +68,16 @@ body {
   display: flex;
   gap: 24px;
   align-items: center;
+}
+
+.home__night-mode {
+  width: 30px;
+  height: 30px;
+}
+
+.home__account {
+  width: 40px;
+  height: 40px;
 }
 
 .title {
@@ -152,6 +167,16 @@ input.search__search-string--style:focus {
   justify-content: center;
 }
 
+.app-links__google-play{
+  width: 135px;
+  height: 40px;
+}
+
+.app-links__appstore{
+  width: 135px;
+  height: 40px;
+}
+
 .advantages {
   text-align: center;
 }
@@ -190,6 +215,11 @@ input.search__search-string--style:focus {
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.offers__images {
+  width: 100px;
+  height: 100px;
 }
 
 .footer {
